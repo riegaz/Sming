@@ -6,7 +6,7 @@
  ****/
 
 #include "YeelightBulb.h"
-#include "TcpClient.h"
+#include <Network/TcpClient.h>
 #include <SmingCore.h>
 
 YeelightBulb::YeelightBulb(IPAddress addr)
